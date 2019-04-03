@@ -30,7 +30,6 @@ function App() {
         <button onClick={changeData}>Transform</button>
       </div>
       <div>
-        <span className="label">Animated Pie SVG: Hooks</span>
         <PieHooks
           data={data}
           width={200}
@@ -39,6 +38,7 @@ function App() {
           outerRadius={100}
         />
       </div>
+      <span className="label">Animated Pie SVG: React Hooks</span>
     </div>
   );
 }
