@@ -40,7 +40,12 @@ function App() {
       </div>
       <br />
       <br />
-      <span className="label">Animated Pie SVG: React Hooks</span>
+      <div className="Info">
+        <span className="label">Animated Pie D3</span>
+        <span className="label">JSX: svg & g elements</span>
+        <span className="label">React: useEffect & useRef Hooks</span>
+        <span className="label">***** Functional Programming *****</span>
+      </div>
     </div>
   );
 }

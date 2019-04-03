@@ -2,3 +2,8 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.Info {
+  display: flex;
+  flex-direction: column;
+}
