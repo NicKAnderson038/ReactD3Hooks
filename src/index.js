@@ -38,6 +38,8 @@ function App() {
           outerRadius={100}
         />
       </div>
+      <br />
+      <br />
       <span className="label">Animated Pie SVG: React Hooks</span>
     </div>
   );
