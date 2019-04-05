@@ -44,7 +44,6 @@ function App() {
         <span className="label">Animated Pie D3</span>
         <span className="label">JSX: svg & g elements</span>
         <span className="label">React: useEffect & useRef Hooks</span>
-        <span className="label">***** Functional Programming *****</span>
       </div>
     </div>
   );
