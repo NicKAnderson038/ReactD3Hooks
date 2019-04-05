@@ -42,8 +42,8 @@ function App() {
       <br />
       <div className="Info">
         <span className="label">Animated Pie D3</span>
-        <span className="label">JSX: svg & g elements</span>
-        <span className="label">React: useEffect & useRef Hooks</span>
+        <span className="label">JSX Elements: svg & g</span>
+        <span className="label">React Hooks: useEffect & useRef</span>
       </div>
     </div>
   );
