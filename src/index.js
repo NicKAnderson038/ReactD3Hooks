@@ -25,7 +25,6 @@ function App() {
     <div className="App">
       <div>
         <button onClick={() => setData(generateData())}>Transform</button>
-        {/* <button onClick={changeData}>Transform</button> */}
       </div>
       <div>
         <PieHooks
