@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ReactDOM from "react-dom";
 import * as d3 from "d3";
-import PieHooks from "./PieHooks";
+import Pie from "./PieHooks";
 
 import "./styles.css";
 
@@ -27,7 +27,7 @@ function App() {
         <button onClick={() => setData(generateData())}>Transform</button>
       </div>
       <div>
-        <PieHooks
+        <Pie
           data={data}
           width={200}
           height={200}
