@@ -23,9 +23,11 @@ function App() {
 
   return (
     <div className="App">
+      <br />
       <div>
         <button onClick={() => setData(generateData())}>Transform</button>
       </div>
+      <br />
       <div>
         <Pie
           data={data}

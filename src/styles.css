@@ -7,3 +7,27 @@
   display: flex;
   flex-direction: column;
 }
+
+button {
+  padding: 4px 10px;
+  border-radius: 5%;
+  outline: none;
+  background-color: orange;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: pink;
+  box-shadow: 0 7px 14px rgba(48, 51, 54, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+  transform: translateY(-1px);
+}
+
+button:disabled {
+  background-color: #cccccc !important;
+}
+
+button:active {
+  border: none;
+  box-shadow: 0 4px 6px rgba(48, 51, 54, 0.1), 0 1px 3px rgba(0, 0, 0, 0.12);
+  transform: translateY(1px);
+}
