@@ -13,9 +13,6 @@ function App() {
     }));
 
   const [data, setData] = useState(generateData(0));
-  const changeData = () => {
-    setData(generateData());
-  };
 
   useEffect(
     () => {
@@ -27,7 +24,8 @@ function App() {
   return (
     <div className="App">
       <div>
-        <button onClick={changeData}>Transform</button>
+        <button onClick={() => setData(generateData())}>Transform</button>
+        {/* <button onClick={changeData}>Transform</button> */}
       </div>
       <div>
         <PieHooks
