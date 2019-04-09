@@ -25,10 +25,6 @@ function App() {
     <div className="App">
       <br />
       <div>
-        <button onClick={() => setData(generateData())}>Transform</button>
-      </div>
-      <br />
-      <div>
         <Pie
           data={data}
           width={200}
@@ -44,6 +40,11 @@ function App() {
         <span className="label">JSX Elements: svg & g</span>
         <span className="label">React Hooks: useEffect & useRef</span>
       </div>
+      <br />
+      <div>
+        <button onClick={() => setData(generateData())}>Transform</button>
+      </div>
+      <br />
     </div>
   );
 }
